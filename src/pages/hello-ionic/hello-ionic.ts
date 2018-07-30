@@ -16,4 +16,10 @@ export class HelloIonicPage {
       item1 :'hahha'
     })
   }
+  gotoTestpage():void{
+    this.navctl.push("TestPage",{
+      item1 :'hahha'
+    })
+  }
+
 }
