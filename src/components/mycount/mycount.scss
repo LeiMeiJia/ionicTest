@@ -1,0 +1,20 @@
+mycount {
+  div {
+    width: 100vw;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    position: relative;
+    i {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 10px;
+      top: 8px;
+    }
+  }
+}
