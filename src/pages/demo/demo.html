@@ -5,11 +5,15 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>demo</ion-title>
+  <ion-navbar no-border-bottom color="primary">
+    <ion-title>详情⻚⾯</ion-title>
+    <!-- 相当于rightBarbuttonitem -->
+    <ion-buttons end>
+      <button ion-button icon-only (click)="dismisspage()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 

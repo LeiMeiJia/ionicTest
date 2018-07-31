@@ -11,15 +11,13 @@ export class HelloIonicPage {
     console.log("rffrff");
   }
 
-  gotopage():void{
+  gotoTestonePage(){
     this.navctl.push(TestonePage,{
-      item1 :'hahha'
+      item1 :'传值1'
     })
   }
-  gotoTestpage():void{
-    this.navctl.push("TestPage",{
-      item1 :'hahha'
-    })
+  gotoTestpage(){
+    this.navctl.push("TestPage")
   }
 
 }

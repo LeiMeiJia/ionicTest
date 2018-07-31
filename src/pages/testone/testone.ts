@@ -24,6 +24,6 @@ export class TestonePage {
     console.log('ionViewDidLoad TestonePage');
   }
   go(){
-    console.log('from TestonePage ');
+    this.navCtrl.push("TestPage");
   }
 }
