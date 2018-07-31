@@ -22,7 +22,8 @@ import {ComponentsModule} from "../components/components.module";
   imports: [
     BrowserModule,
     ComponentsModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,
+      {backButtonText:"返回"}),//返回箭头后有返回文字，页面左上角
   ],
   bootstrap: [IonicApp],
 
