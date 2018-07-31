@@ -4,12 +4,24 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
+<!-- 导航栏 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>testPage</ion-title>
+  <ion-navbar no-border-bottom color="primary">
+    <ion-title>⾸⻚</ion-title>
+    <!-- start表示这个按钮在导航栏的左边,end 表示在右边 -->
+    <!-- leftbarbuttonitem -->
+    <ion-buttons start>
+      <button ion-button icon-only (click)="dosomething()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+    <!-- 相当于rightBarbuttonitem -->
+    <ion-buttons end>
+      <button ion-button icon-only (click)="dosomething()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 
